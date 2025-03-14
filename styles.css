@@ -60,13 +60,6 @@ a {
 body{
     justify-content: center;
 }
-.profile-img { 
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    border:solid 5px;
-    border-color:#5f047a;}
-
 .About-me{
     text-align: center;
     margin-bottom: 20px;
@@ -126,7 +119,9 @@ body{
   outline-width: thin;
   outline-color:rgb(148, 234, 245);
 }
-.Projects {
+
+/* Projects Section Styling */
+#projects {
   display: flex;
   justify-content: space-evenly;
   margin: 1em; /* Space around each project */
@@ -138,15 +133,16 @@ body{
   width: auto;
   padding:5px;
   margin: 1px;
-  
+}
+#projects img{
+  width: 100%; 
+    max-width: 150px; 
+    height: auto; 
+    border-radius: 8px;
 }
 .listprojects {
 
 }
-.listprojects div{
- 
-}
-
 .Contact {}
 footer{
   text-align: center;
