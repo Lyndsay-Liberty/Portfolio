@@ -71,6 +71,7 @@ body{
   border:solid 5px;
   border-color:#5f047a;}
 
+<!-- Skills Section -->
 .Skills {
   background:rgb(148, 234, 245);
   text-align: center;
@@ -125,7 +126,7 @@ body{
   display: flex;
   justify-content: space-evenly;
 }
-#projects img{
+.listprojects img{
   width: 100%; 
     max-width: 150px; 
     height: auto; 
@@ -137,7 +138,7 @@ body{
     border: 1px solid #ddd; /* Light border around each project */
     border-radius: 8px; /* Rounded corners for project cards */
 }
-.Contact {}
+
 footer{
   text-align: center;
   margin-bottom: 20px;
