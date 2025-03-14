@@ -53,7 +53,6 @@ header {
   .navbar {
       flex-direction: column;
     }
-  }
 a {
     color:black;
 }
@@ -64,10 +63,8 @@ body{
     text-align: center;
     margin-bottom: 20px;
   justify-content: center;
-  background-image: url("funpic.jpg");
- background-color: #cccccc;
-  opacity: 0.5
 }
+    
 .profile-img { 
   width: 150px;
   height: auto;
