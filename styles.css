@@ -124,15 +124,6 @@ body{
 #projects {
   display: flex;
   justify-content: space-evenly;
-  margin: 1em; /* Space around each project */
-    padding: 1em; /* Padding for interior spacing */
-  background:rgb(148, 234, 245);
-  text-align: center;
-  margin-bottom: 20px
-  height: auto;
-  width: auto;
-  padding:5px;
-  margin: 1px;
 }
 #projects img{
   width: 100%; 
@@ -141,7 +132,10 @@ body{
     border-radius: 8px;
 }
 .listprojects {
-
+  margin: 1em; /* Space around each project */
+    padding: 1em; /* Padding for interior spacing */
+    border: 1px solid #ddd; /* Light border around each project */
+    border-radius: 8px; /* Rounded corners for project cards */
 }
 .Contact {}
 footer{
