@@ -84,7 +84,7 @@ body{
 .listskills{
   display: flex;
   flex-wrap: nowrap;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: center;
   align-items:center;
   outline-style: dotted;
