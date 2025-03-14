@@ -59,10 +59,7 @@ a {
 }
 body{
     justify-content: center;
-  background-image: url "funpic.jpg";
- background-color: #cccccc;
-  opacity: 0.5;
-}
+  }
 .About-me{
     text-align: center;
     margin-bottom: 20px;
