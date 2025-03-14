@@ -128,10 +128,18 @@ body{
 /* Projects Section Styling */
 #projects {
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
   justify-content: space-evenly;
 }
 .listprojects img{
- 
+   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
 }
   width: 100%; 
     max-width: 150px; 
